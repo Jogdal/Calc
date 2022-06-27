@@ -30,15 +30,11 @@ namespace CalculatorApp
         { 
             if (numberOne == 0) 
                 {
-                Console.WriteLine();
-                Console.WriteLine("Division Error ");
-                return -0;   
+                return 0;   
                 }
             if (numberTwo == 0)
                 {
-                Console.WriteLine();
-                Console.WriteLine("Division Error - Division by Zero not Allowed ");
-                return -0;
+                return 0;
                 }
             return numberOne / numberTwo; 
          }
